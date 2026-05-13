@@ -23,7 +23,7 @@ category: "site"               # site | page | component | snippet
 catweb_version: "2.17.3.0"
 site: "your-site.rbx"          # optional, if uploaded on a CatWeb site
 tags: [tag1, tag2, tag3]
-type: "json"                   # json | upload-code
+type: "json"                   # json | upload-code | json,upload-code
 requires: []                   # optional, e.g. [cookies, premium]
 updated: "YYYY-MM-DD"          # optional
 ---
@@ -35,11 +35,18 @@ sentences are usually enough.
 
 ---
 
-## `content.md` — pick one of these
+## `content.md` — JSON, upload code, or both
 
-### Option A — Raw JSON
+Include whichever you have. If you ship both, label each section with a heading so it's clear which is which. Set `type` in `info.md` accordingly (`json`, `upload-code`, or `json,upload-code`).
 
-Paste the CatWeb JSON inside a fenced `json` block. Nothing else in the file.
+````markdown
+## Upload code
+
+```
+ABC123
+```
+
+## JSON
 
 ```json
 [
@@ -51,14 +58,9 @@ Paste the CatWeb JSON inside a fenced `json` block. Nothing else in the file.
   }
 ]
 ```
+````
 
-### Option B — Upload code
-
-If you'd rather share a CatWeb upload code, just put the 6-character code in the file by itself:
-
-```
-ABC123
-```
+Drop either section if you don't need it.
 
 ---
 
@@ -94,7 +96,7 @@ A pre-filled blank version of this file lives at [`template/CREDITS.md`](./CREDI
 
 - [ ] Folder is named in `kebab-case`
 - [ ] `info.md` frontmatter is fully filled in
-- [ ] `type` in `info.md` matches what's actually in `content.md` (`json` or `upload-code`)
+- [ ] `type` in `info.md` matches what's actually in `content.md` (`json`, `upload-code`, or `json,upload-code`)
 - [ ] JSON is valid and tested inside CatWeb
 - [ ] No comments inside the JSON (CatWeb's parser breaks on them)
 - [ ] `catweb_version` reflects the version you tested against

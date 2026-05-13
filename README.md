@@ -111,6 +111,14 @@ We'll merge promptly once ownership checks out.
 ## Related Repos
 
 - [`catweb-docs`](https://github.com/mailo037/catweb-docs) — official reference (CatDocs, JSONScript, UIGPT)
+- [`catweb-mcp`](https://github.com/Mailo037/catweb-mcp) — MCP server that indexes this repo + `catweb-docs` so AI agents (Claude, etc.) can search templates by tag/author/type and pull the JSON directly into chat. See its README for setup.
+
+## AI / agent usage
+
+If you're an AI assistant or pointing one at this repo, you can either:
+
+1. **Read the folders directly** — `info.md` has YAML frontmatter (title, author, category, tags, type, source) and each `content.md` holds the upload-code and/or JSON in fenced blocks.
+2. **Use the [`catweb-mcp`](https://github.com/Mailo037/catweb-mcp) MCP server** — adds `search`, `find_templates`, `get_template`, etc. tools so you don't have to crawl every folder. Recommended for non-trivial queries.
 
 ---
 
