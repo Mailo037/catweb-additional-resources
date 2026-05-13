@@ -1,0 +1,119 @@
+# CatWeb Additional Resources
+
+Premade JSONs and entire sites for **CatWeb** (Roblox) — the Roblox game where you build 2D websites with JSON-based UI and a visual block-scripting system.
+
+This repo is the companion to [`catweb-docs`](https://github.com/mailo037/catweb-docs). While `catweb-docs` is the official reference (CatDocs, JSONScript, UIGPT), this repo is a community drop-box of **ready-to-import JSONs and full sites** you can grab and use.
+
+> Targeting CatWeb version **v2.17.3.0**
+
+---
+
+## Table of Contents
+
+1. [How submissions are stored](#how-submissions-are-stored)
+2. [The three files](#the-three-files)
+3. [Submitting your own](#submitting-your-own)
+4. [I want my stuff gone](#i-want-my-stuff-gone)
+5. [Related Repos](#related-repos)
+6. [Credits](#credits)
+
+---
+
+## How submissions are stored
+
+Every JSON or site is its **own folder** at the repo root. Each folder contains two required files and one optional file.
+
+### Layout
+
+```
+catweb-additional-resources/
+│
+├── README.md
+├── template/
+│   ├── TEMPLATE.md          ← instructions + copyable blocks
+│   └── CREDITS.md           ← blank credits template (copy → credits.md)
+│
+├── cool-login-page/
+│   ├── info.md          ← what is this
+│   ├── content.md       ← the JSON (or an upload code)
+│   └── credits.md       ← (optional) who made it
+│
+├── neon-button-pack/
+│   ├── info.md
+│   └── content.md
+│
+└── full-portfolio-site/
+    ├── info.md
+    ├── content.md
+    └── credits.md
+```
+
+### Inside a folder
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  <folder-name>/                                              │
+│  ───────────────────────────────────────────────────────     │
+│                                                              │
+│   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │
+│   │  info.md    │    │ content.md  │    │ credits.md  │      │
+│   ├─────────────┤    ├─────────────┤    ├─────────────┤      │
+│   │ title       │    │ ```json     │    │ Made by:    │      │
+│   │ category    │    │ [ … ]       │    │ - @person1  │      │
+│   │ version     │    │ ```         │    │   GH/DC/RBX │      │
+│   │ site        │    │   - OR -    │    │ - @person2  │      │
+│   │ tags        │    │             │    │             │      │
+│   │ description │    │ ABC123      │    │ Uploaded on │      │
+│   └─────────────┘    └─────────────┘    └─────────────┘      │
+│                                                              │
+│     metadata           actual upload      (optional)         │
+│     (required)         (required)         who made it        │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## The three files
+
+| File         | Required | What it holds                                                                                       |
+| ------------ | :------: | --------------------------------------------------------------------------------------------------- |
+| `info.md`    |    ✓     | YAML frontmatter (title, author, category, version, site, tags, type, …) + a one-paragraph summary. |
+| `content.md` |    ✓     | Either the raw CatWeb JSON in a ` ```json ` block, **or** a 6-character upload code. Nothing else.  |
+| `credits.md` |          | Multiple creators / profile links (GitHub, Discord, Roblox name + ID) and the catweb link. |
+
+> **Copyable templates** live in [`template/`](./template/) — see [`template/TEMPLATE.md`](./template/TEMPLATE.md) for the full content of each file, and [`template/CREDITS.md`](./template/CREDITS.md) for a blank credits file to copy into your folder.
+
+---
+
+## Submitting your own
+
+1. Create a new folder at the repo root (e.g. `neon-button-pack/`).
+2. Copy the blocks from [`template/TEMPLATE.md`](./template/TEMPLATE.md) into `info.md` and `content.md`.
+3. Fill in the frontmatter and drop in your JSON or upload code.
+4. *(optional)* Copy [`template/CREDITS.md`](./template/CREDITS.md) into your folder as `credits.md` and fill it in.
+5. Test the JSON inside CatWeb first.
+6. Open a PR with a one-line description.
+
+---
+
+## I want my stuff gone
+
+If you find your JSONs or sites in here and want them removed:
+
+- Open a **PR that deletes the affected folder(s)**.
+- Include **proof of ownership** in the PR description — a Discord message, a screenshot from inside CatWeb showing the same site under your account, or any other clear link between you and the content.
+
+We'll merge promptly once ownership checks out.
+
+---
+
+## Related Repos
+
+- [`catweb-docs`](https://github.com/mailo037/catweb-docs) — official reference (CatDocs, JSONScript, UIGPT)
+
+---
+
+## Credits
+
+Big thanks to everyone submitting stuff.
