@@ -3,7 +3,7 @@ title: "UserId Verification"
 author: "@topballgamer"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [scripted, UI]
+tags: [scripted, UI, verification, roblox, gate, redirect]
 type: "json"
 source: "catwebtemplates.com"
 ---
