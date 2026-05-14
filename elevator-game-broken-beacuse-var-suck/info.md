@@ -3,7 +3,7 @@ title: "Elevator game Broken Beacuse Var Suck"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import, broken]
+tags: [jexx, discord-import, broken, game, main-menu, audio, animation, intro]
 type: "json"
 source: "discord:#jsons"
 ---

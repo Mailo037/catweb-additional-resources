@@ -3,7 +3,7 @@ title: "Doesnt Load For me"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import, broken]
+tags: [jexx, discord-import, broken, audio, text-to-speech, phonemes]
 type: "json"
 source: "discord:#jsons"
 ---
