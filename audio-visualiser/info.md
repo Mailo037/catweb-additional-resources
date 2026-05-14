@@ -3,7 +3,7 @@ title: "Audio Visualiser"
 author: "@romanthe_noodle"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [scripted, UI, audio]
+tags: [scripted, UI, audio, visualiser, animation, component, realtime]
 type: "json"
 source: "catwebtemplates.com"
 ---
