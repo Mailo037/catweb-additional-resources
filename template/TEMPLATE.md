@@ -1,9 +1,9 @@
 # Submission Template
 
-Every submission lives in its own folder at the repo root. Create the folder, then copy the blocks below into the matching files.
+Every submission lives in its own folder inside `library/`. Create the folder there, then copy the blocks below into the matching files.
 
 ```
-your-folder-name/
+library/your-folder-name/
 ├── info.md          (required)
 ├── content.md       (required)
 └── credits.md       (optional — to credit the creator(s) of this submission)
@@ -94,7 +94,7 @@ A pre-filled blank version of this file lives at [`template/CREDITS.md`](./CREDI
 
 ## Quick checklist before opening a PR
 
-- [ ] Folder is named in `kebab-case`
+- [ ] Folder is placed inside `library/` and named in `kebab-case`
 - [ ] `info.md` frontmatter is fully filled in
 - [ ] `type` in `info.md` matches what's actually in `content.md` (`json`, `upload-code`, or `json,upload-code`)
 - [ ] JSON is valid and tested inside CatWeb

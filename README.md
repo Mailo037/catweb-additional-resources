@@ -21,7 +21,7 @@ This repo is the companion to [`catweb-docs`](https://github.com/mailo037/catweb
 
 ## How submissions are stored
 
-Every JSON or site is its **own folder** at the repo root. Each folder contains two required files and one optional file.
+Every JSON or site is its **own folder** inside [`library/`](./library/). Each folder contains two required files and one optional file. The `template/` folder at the repo root holds the copyable submission template — keep it separate from the library so newcomers can find it.
 
 ### Layout
 
@@ -29,23 +29,24 @@ Every JSON or site is its **own folder** at the repo root. Each folder contains 
 catweb-additional-resources/
 │
 ├── README.md
-├── template/
+├── template/                ← copy this into library/your-folder/ when submitting
 │   ├── TEMPLATE.md          ← instructions + copyable blocks
 │   └── CREDITS.md           ← blank credits template (copy → credits.md)
 │
-├── cool-login-page/
-│   ├── info.md          ← what is this
-│   ├── content.md       ← the JSON (or an upload code)
-│   └── credits.md       ← (optional) who made it
-│
-├── neon-button-pack/
-│   ├── info.md
-│   └── content.md
-│
-└── full-portfolio-site/
-    ├── info.md
-    ├── content.md
-    └── credits.md
+└── library/
+    ├── cool-login-page/
+    │   ├── info.md          ← what is this
+    │   ├── content.md       ← the JSON (or an upload code)
+    │   └── credits.md       ← (optional) who made it
+    │
+    ├── neon-button-pack/
+    │   ├── info.md
+    │   └── content.md
+    │
+    └── full-portfolio-site/
+        ├── info.md
+        ├── content.md
+        └── credits.md
 ```
 
 ### Inside a folder
@@ -88,7 +89,7 @@ catweb-additional-resources/
 
 ## Submitting your own
 
-1. Create a new folder at the repo root (e.g. `neon-button-pack/`).
+1. Create a new folder inside `library/` (e.g. `library/neon-button-pack/`).
 2. Copy the blocks from [`template/TEMPLATE.md`](./template/TEMPLATE.md) into `info.md` and `content.md`.
 3. Fill in the frontmatter and drop in your JSON or upload code.
 4. *(optional)* Copy [`template/CREDITS.md`](./template/CREDITS.md) into your folder as `credits.md` and fill it in.
@@ -117,7 +118,7 @@ We'll merge promptly once ownership checks out.
 
 If you're an AI assistant or pointing one at this repo, you can either:
 
-1. **Read the folders directly** — `info.md` has YAML frontmatter (title, author, category, tags, type, source) and each `content.md` holds the upload-code and/or JSON in fenced blocks.
+1. **Read the folders directly** — every submission lives under `library/`; `info.md` has YAML frontmatter (title, author, category, tags, type, source) and each `content.md` holds the upload-code and/or JSON in fenced blocks.
 2. **Use the [`catweb-mcp`](https://github.com/Mailo037/catweb-mcp) MCP server** — adds `search`, `find_templates`, `get_template`, etc. tools so you don't have to crawl every folder. Recommended for non-trivial queries.
 
 ---
