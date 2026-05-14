@@ -3,7 +3,7 @@ title: "Random String Generator"
 author: "@.swirx"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [rng, script, shuffler, random, utility]
+tags: [rng, script, random, utility, string-generator, charset, function]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---
