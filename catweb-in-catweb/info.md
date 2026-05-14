@@ -3,7 +3,7 @@ title: "Catweb in catweb"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import]
+tags: [jexx, discord-import, site, meta, UI]
 type: "upload-code"
 source: "discord:#jsons"
 ---

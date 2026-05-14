@@ -3,7 +3,7 @@ title: "Captcha Integration"
 author: "@loldo_gg"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [script, accessibility]
+tags: [script, captcha, security, bot-prevention, redirect]
 type: "json"
 source: "catwebtemplates.com"
 ---
