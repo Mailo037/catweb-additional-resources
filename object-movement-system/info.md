@@ -3,7 +3,7 @@ title: "Object Movement System"
 author: "@rwor1d"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [scripted, game, utility]
+tags: [scripted, game, utility, movement, wasd]
 type: "json"
 source: "catwebtemplates.com"
 ---
