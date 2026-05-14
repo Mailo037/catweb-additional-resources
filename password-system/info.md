@@ -3,7 +3,7 @@ title: "Password System"
 author: "@topballgamer"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [scripted, UI]
+tags: [scripted, UI, password, authentication, audio]
 type: "json"
 source: "catwebtemplates.com"
 ---
