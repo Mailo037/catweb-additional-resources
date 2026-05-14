@@ -3,7 +3,7 @@ title: "Simple Draggable Element"
 author: "@rwor1d"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [UI, scripted, utility]
+tags: [UI, scripted, utility, draggable, mouse]
 type: "json"
 source: "catwebtemplates.com"
 ---

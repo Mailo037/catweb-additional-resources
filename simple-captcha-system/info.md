@@ -3,7 +3,7 @@ title: "Simple Captcha System"
 author: "@jinkme2"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [UI, scripted]
+tags: [UI, scripted, captcha, bot-protection, security, checkbox]
 type: "json"
 source: "catwebtemplates.com"
 ---

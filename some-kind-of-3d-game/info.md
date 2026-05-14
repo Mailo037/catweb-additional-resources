@@ -3,7 +3,7 @@ title: "Some Kind Of 3D game"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import]
+tags: [jexx, discord-import, 3d, pseudo-3d, game, scripted, mobile-support]
 type: "json"
 source: "discord:#jsons"
 ---
