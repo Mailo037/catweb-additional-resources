@@ -3,7 +3,7 @@ title: "Dynamic Number Formatter"
 author: "@.swirx"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [numbers, utility, accessibility]
+tags: [numbers, utility, scripted, formatter, suffixes]
 type: "json"
 source: "catwebtemplates.com"
 ---
