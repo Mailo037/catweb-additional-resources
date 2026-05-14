@@ -3,7 +3,7 @@ title: "Advanced Typewriter Effect"
 author: "@runtem"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [script, utility]
+tags: [script, utility, animation, typewriter, text, function, scripted]
 type: "json"
 source: "catwebtemplates.com"
 ---
