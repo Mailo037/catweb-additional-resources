@@ -3,7 +3,7 @@ title: "Global Notifier"
 author: "chainsawman2116 (Roblox)"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [UI, scripted]
+tags: [UI, scripted, notification, broadcasts, messaging]
 type: "json"
 source: "catwebtemplates.com"
 ---
