@@ -3,7 +3,7 @@ title: "teroferia in game (i think"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import]
+tags: [jexx, discord-import, game, UI, horror, scripted, teroferia]
 type: "json"
 source: "discord:#jsons"
 ---

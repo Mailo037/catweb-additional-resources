@@ -3,7 +3,7 @@ title: "String Shuffler"
 author: "@drhandle"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [script, utility, rng, shuffler]
+tags: [script, utility, rng, shuffler, string, random, text, function]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---
