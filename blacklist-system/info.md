@@ -3,7 +3,7 @@ title: "Blacklist System"
 author: "@ticocraft"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [moderation, script]
+tags: [moderation, script, ban, overlay, username-check]
 type: "json"
 source: "catwebtemplates.com"
 ---

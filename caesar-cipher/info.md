@@ -3,7 +3,7 @@ title: "Caesar Cipher"
 author: "@dirt.nation"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [script, utility, encoder]
+tags: [script, utility, encoder, decoder, cipher]
 type: "json"
 source: "catwebtemplates.com"
 ---
