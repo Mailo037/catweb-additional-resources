@@ -3,7 +3,7 @@ title: "GIF Runner"
 author: "@pugwares"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [GIF, script, spritesheet]
+tags: [GIF, script, spritesheet, animation]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---

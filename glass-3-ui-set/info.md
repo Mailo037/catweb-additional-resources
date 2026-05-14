@@ -3,7 +3,7 @@ title: "Glass 3 UI Set"
 author: "@mike_flux"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [UI]
+tags: [UI, component, glass, liquid-glass, scripted, animation, theme]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---
