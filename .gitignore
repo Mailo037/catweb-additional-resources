@@ -1,19 +1,4 @@
-# Temporary dumps from catwebtemplates.com analysis — not redistributable per their ToS
-catweb*.html
-catweb*.js
-catweb*.json
-catweb*.ps1
-catweb*.py
-
-# Discord exports (may contain tokens, private IDs, attachments)
-discord-export/
-*.dce.json
-discord*
-
-# OS / editor
-.DS_Store
-Thumbs.db
-*.swp
-.vscode/
-.idea/
-.claude/
+*
+!library/
+!template/
+!README.md
