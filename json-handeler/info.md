@@ -3,7 +3,7 @@ title: "Json Handeler (Dont Know what it does)"
 author: "Jexx (Roblox: 2662703295)"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [jexx, discord-import]
+tags: [jexx, discord-import, scripted, utility, json, parser, encoder, library]
 type: "json"
 source: "discord:#jsons"
 ---
