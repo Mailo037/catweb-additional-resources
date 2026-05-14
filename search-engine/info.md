@@ -3,7 +3,7 @@ title: "Search Engine"
 author: "@fadeorb"
 category: "component"
 catweb_version: "2.17.3.0"
-tags: [website, UI, scripted, search]
+tags: [UI, scripted, search, redirect, component, search-engine]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---

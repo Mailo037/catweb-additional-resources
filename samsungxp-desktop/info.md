@@ -3,7 +3,7 @@ title: "SamsungXP Desktop"
 author: "@retrobloxxer_real23"
 category: "page"
 catweb_version: "2.17.3.0"
-tags: [scripted, UI, page, website]
+tags: [scripted, UI, page, website, desktop, audio, animation, clock, taskbar]
 type: "json"
 source: "catwebtemplates.com"
 ---
