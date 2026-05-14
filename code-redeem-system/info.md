@@ -3,7 +3,7 @@ title: "Code Redeem System"
 author: "@kaeloplay"
 category: "page"
 catweb_version: "2.17.3.0"
-tags: [page, UI, scripted]
+tags: [page, UI, scripted, code-redeem, input, rewards]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---

@@ -3,7 +3,7 @@ title: "Character Limited Output"
 author: "@ticocraft"
 category: "snippet"
 catweb_version: "2.17.3.0"
-tags: [moderation, script]
+tags: [script, utility, input, text-limit, validation]
 type: "json,upload-code"
 source: "catwebtemplates.com"
 ---
