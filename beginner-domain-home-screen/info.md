@@ -3,7 +3,7 @@ title: "Beginner Domain Home Screen"
 author: "@romanthe_noodle"
 category: "page"
 catweb_version: "2.17.3.0"
-tags: [scripted, UI, page]
+tags: [scripted, UI, page, home-screen, profile, avatar, audio, domain, beginner]
 type: "json"
 source: "catwebtemplates.com"
 ---
